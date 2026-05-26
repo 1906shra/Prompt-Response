@@ -41,30 +41,26 @@ The application is designed to provide a world-class SaaS experience across desk
 
 ## Frontend
 
-- React.js + Vite
-- Tailwind CSS
-- Framer Motion
-- React Router DOM
-- Axios
-- Context API / Redux Toolkit
-- Recharts / Chart.js
-- React Hook Form
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6+)
+- Vite
+- LocalStorage API
+- Canvas API for charts
+- Responsive CSS Grid/Flexbox
+- Custom reusable UI utilities
 
 ## Backend
+- Vanilla JavaScript (ES6+)
+- Vite
+- Browser LocalStorage API
+- Modular frontend rendering system
+- Utility-based application architecture
+- Dynamic DOM rendering
+- Event-driven state updates
+- Reusable UI helpers
+- Canvas API for analytics visualizations
 
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt
-- Nodemailer
-
-## Deployment
-
-- Frontend → Vercel
-- Backend → Render / Railway
-- Database → MongoDB Atlas
 
 ---
 
