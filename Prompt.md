@@ -1,97 +1,282 @@
-# Master Prompt: Build a Modern 10-Page Habit Tracker Application
+# Build a Modern 10 Page Habit Tracker Application
 
-## Role
+## Context and Role
 
-You are an expert Full Stack Developer, UI/UX Designer, Product Architect, and Performance Optimization Engineer. Your task is to design and develop a complete production-ready Habit Tracker application with a modern UI, responsive design, analytics dashboard, authentication system, gamification, and advanced productivity tools.
+As a Senior Frontend Developer, UI/UX Engineer, and JavaScript Application Architect, you are responsible for designing and developing a complete production-ready Habit Tracker web application using a static multi-page architecture with modular JavaScript, responsive CSS, and modern browser APIs.
 
-The application must be visually stunning, scalable, cleanly structured, and fully optimized for performance.
+The project must deliver a premium SaaS-style productivity experience while maintaining:
 
----
+- High performance
+- Accessibility
+- Responsive design
+- Reusable architecture
+- Clean code organization
 
-# Project Overview
+The application should provide:
 
-Build a complete Habit Tracker platform that helps users:
+- Habit tracking
+- Analytics
+- Gamification
+- Reminders
+- Community engagement
+- Productivity insights
 
-* Create daily habits
-* Track progress
-* Build streaks
-* View analytics
-* Stay motivated
-* Improve productivity
-* Manage routines
-* Receive reminders
-* Earn achievements
-* Analyze long-term consistency
-
-The project should include:
-
-* Frontend
-* Backend
-* Database
-* Authentication
-* APIs
-* Dashboard
-* Analytics
-* Notifications
-* Responsive UI
-* Dark/Light mode
-* Charts and reports
-* User settings
-* Mobile-friendly experience
+through a visually immersive and highly interactive user experience.
 
 ---
 
-# Technology Stack
+# Objective
 
-## Frontend
+Develop a complete premium Habit Tracker web application that:
 
-* React.js with Vite
-* Tailwind CSS
-* Framer Motion
-* React Router DOM
-* Axios
-* Context API or Redux Toolkit
-* Recharts or Chart.js
-* React Hook Form
-
-## Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* bcrypt
-* Nodemailer
-
-## Deployment
-
-* Frontend: Vercel
-* Backend: Render/Railway
-* Database: MongoDB Atlas
+- Allows users to create and manage habits
+- Tracks streaks and consistency
+- Provides productivity analytics
+- Includes gamification systems
+- Supports reminders and notifications
+- Includes community and social features
+- Uses modern UI animations
+- Delivers responsive layouts
+- Uses modular JavaScript architecture
+- Stores user data using browser storage
+- Maintains high performance and scalability
 
 ---
 
-# UI/UX Requirements
+# Styling Requirements
 
-The design must:
+The application styling must include:
 
-* Be modern and premium
-* Use smooth animations
-* Include glassmorphism/neumorphism elements
-* Have responsive layouts
-* Support dark/light themes
-* Include loading skeletons
-* Use elegant typography
-* Include hover effects
-* Have smooth transitions
-* Use reusable components
+- Modern premium SaaS-style UI
+- Advanced glassmorphism effects
+- Responsive layouts using CSS Grid and Flexbox
+- Dark and light theme support
+- Smooth hover animations
+- Transition effects
+- Dynamic gradient backgrounds
+- Interactive cards
+- Animated buttons
+- Floating UI effects
+- Loading states and skeleton loaders
+- Mobile-first responsiveness
+- Elegant typography
 
-Color palette should feel modern and motivating.
+The main stylesheet must remain centralized inside:
+
+```bash
+css/styles.css
+```
 
 ---
 
-# Complete 10-Page Structure
+# JavaScript Architecture Requirements
+
+The application logic must remain modular inside:
+
+```bash
+js/app.js
+```
+
+The JavaScript architecture should include:
+
+- State management system
+- UI utility helpers
+- Authentication logic
+- Habit management logic
+- Notification system
+- Gamification engine
+- Analytics rendering
+- Calendar rendering
+- Community interactions
+- Theme management
+- Modal management
+
+The application should use:
+
+- Reusable rendering functions
+- Event delegation
+- Dynamic DOM rendering
+- Utility-based architecture
+- LocalStorage persistence
+- Component-style rendering patterns
+
+---
+
+# UI and Animation Requirements
+
+## Motion and Interaction Design
+
+Implement:
+
+- Smooth page transitions
+- Hover animations
+- Animated cards
+- Progress animations
+- Achievement celebrations
+- Confetti effects
+- Sidebar animations
+- Modal transitions
+- Loading animations
+- Responsive navigation animations
+
+---
+
+# Folder Structure
+
+```bash
+project/
+├── css/
+│   └── styles.css
+├── js/
+│   └── app.js
+├── node_modules/
+├── index.html
+├── auth.html
+├── dashboard.html
+├── habits.html
+├── analytics.html
+├── calendar.html
+├── rewards.html
+├── reminders.html
+├── community.html
+├── settings.html
+├── README.md
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+---
+
+# Folder Structure Explanation
+
+## css/styles.css
+
+Contains the complete centralized styling system including:
+
+- Themes
+- Layouts
+- Animations
+- Glassmorphism effects
+- Responsive utilities
+- Reusable UI components
+
+## js/app.js
+
+Contains the complete application logic including:
+
+- Authentication
+- State management
+- Habit tracking
+- Analytics
+- Notifications
+- Gamification
+- Calendar rendering
+- UI interactions
+
+## index.html
+
+Landing page with:
+
+- Hero section
+- Features
+- Testimonials
+- Pricing
+
+## auth.html
+
+Login and signup page with:
+
+- Validation
+- Authentication handling
+
+## dashboard.html
+
+Main productivity dashboard showing:
+
+- Habits
+- Streaks
+- Analytics
+- Progress overview
+
+## habits.html
+
+Habit creation and management page with:
+
+- Editing
+- Filtering
+- Tracking functionality
+
+## analytics.html
+
+Analytics dashboard containing:
+
+- Charts
+- Productivity insights
+- Heatmaps
+
+## calendar.html
+
+Calendar and timeline view for tracking:
+
+- Daily progress
+- Activity history
+
+## rewards.html
+
+Gamification system with:
+
+- XP
+- Achievements
+- Levels
+- Rewards
+
+## reminders.html
+
+Notification and reminder management system.
+
+## community.html
+
+Community feed with:
+
+- Posts
+- Comments
+- Likes
+- Social engagement features
+
+## settings.html
+
+User settings including:
+
+- Theme management
+- Profile customization
+- Focus mode controls
+
+## README.md
+
+Project documentation including:
+
+- Setup instructions
+- Features
+- Deployment guide
+
+## package.json
+
+Contains:
+
+- Project dependencies
+- Scripts
+- Vite configuration
+
+## vite.config.js
+
+Contains Vite development and build configuration.
+
+---
+
+# Page Requirements
+
+The application must include the following pages:
 
 ---
 
@@ -99,7 +284,7 @@ Color palette should feel modern and motivating.
 
 ## Objective
 
-Create a beautiful landing page that introduces the application.
+Create a premium landing page introducing the platform.
 
 ## Sections
 
@@ -107,692 +292,389 @@ Create a beautiful landing page that introduces the application.
 
 Include:
 
-* Catchy headline
-* Motivational tagline
-* CTA buttons
-* Animated illustrations
-* Productivity statistics
+- Motivational headline
+- CTA buttons
+- Productivity statistics
+- Animated UI showcase
 
 ### Features Section
 
 Show:
 
-* Habit tracking
-* Daily goals
-* Streak management
-* Analytics
-* Smart reminders
-* Gamification
+- Habit tracking
+- Analytics
+- Streak system
+- Gamification
+- Smart reminders
 
 ### Testimonials
 
-Add:
+Include:
 
-* User reviews
-* Ratings
-* Success stories
+- User reviews
+- Success stories
+- Ratings
 
 ### Pricing Section
 
-Include:
+Display:
 
-* Free plan
-* Premium plan
-* Feature comparison
+- Free plan
+- Premium plan
+- Feature comparison
 
 ### Footer
 
 Include:
 
-* Social links
-* Contact info
-* Newsletter subscription
-* Quick navigation
-
-## Functional Requirements
-
-* Smooth scrolling
-* Framer Motion animations
-* Responsive navbar
-* Mobile menu
-* CTA redirection
+- Social links
+- Contact information
+- Quick navigation
 
 ---
 
-# PAGE 2 — Authentication Page
-
-## Objective
-
-Build secure authentication pages.
+# PAGE 2 — Authentication
 
 ## Features
 
 ### Login
 
-* Email/password login
-* Remember me
-* Forgot password
-* Social login
+- Email/password login
+- Remember me
+- Forgot password
 
 ### Signup
 
-* Username
-* Email
-* Password
-* Confirm password
-* Terms checkbox
-
-### Security
-
-* JWT authentication
-* Password hashing
-* Validation
-* Error handling
-* Protected routes
-
-## UI Requirements
-
-* Split-screen design
-* Animated background
-* Form validation animations
-* Password strength indicator
-
----
-
-# PAGE 3 — User Dashboard
-
-## Objective
-
-Main productivity overview page.
-
-## Dashboard Widgets
-
-### Habit Summary
-
-* Total habits
-* Completed today
-* Pending habits
-* Success rate
-
-### Streak Cards
-
-Display:
-
-* Longest streak
-* Current streak
-* Weekly consistency
-
-### Productivity Score
-
-Create:
-
-* Circular progress charts
-* Goal completion stats
-
-### Daily Quote Section
-
-Show motivational quotes dynamically.
-
-### Calendar Widget
-
-Display completed days visually.
-
-## Functional Requirements
-
-* Real-time updates
-* Interactive cards
-* Animated statistics
-* API integration
-
----
-
-# PAGE 4 — Habit Management Page
-
-## Objective
-
-Allow users to create and manage habits.
-
-## Features
-
-### Create Habit
-
-Fields:
-
-* Habit title
-* Description
-* Category
-* Frequency
-* Difficulty level
-* Reminder time
-* Habit icon
-* Habit color
-
-### Habit Categories
-
-Examples:
-
-* Fitness
-* Study
-* Meditation
-* Reading
-* Water intake
-* Sleep
-
-### Habit Actions
-
-* Add habit
-* Edit habit
-* Delete habit
-* Archive habit
-* Mark complete
-
-## Additional Features
-
-* Drag-and-drop reordering
-* Search and filter
-* Habit priority system
-* Habit notes
-
----
-
-# PAGE 5 — Habit Analytics Page
-
-## Objective
-
-Provide detailed progress analytics.
-
-## Charts Required
-
-### Weekly Progress
-
-* Bar chart
-* Completion percentage
-
-### Monthly Trends
-
-* Line graph
-* Streak patterns
-
-### Category Analysis
-
-* Pie charts
-* Habit comparison
-
-### Productivity Heatmap
-
-Visualize:
-
-* Most productive days
-* Most active hours
-
-## Insights Engine
-
-Generate smart insights like:
-
-* Best performance day
-* Habit consistency score
-* Suggested improvements
-
----
-
-# PAGE 6 — Calendar & Timeline Page
-
-## Objective
-
-Track habits across time.
-
-## Features
-
-### Interactive Calendar
-
-* Daily completion markers
-* Streak highlights
-* Missed days
-* Goal milestones
-
-### Timeline View
-
-Show:
-
-* Habit history
-* Daily logs
-* Progress records
-
-### Filters
-
-* Weekly
-* Monthly
-* Yearly
-* Custom date range
-
-## UI Requirements
-
-* Smooth transitions
-* Color-coded completion
-* Dynamic event rendering
-
----
-
-# PAGE 7 — Gamification & Rewards Page
-
-## Objective
-
-Increase user motivation.
-
-## Features
-
-### Achievement System
-
-Include badges like:
-
-* 7-day streak
-* 30-day streak
-* Early riser
-* Productivity master
-
-### XP System
-
-Users earn:
-
-* Experience points
-* Levels
-* Coins
-* Rewards
-
-### Leaderboard
-
-Show:
-
-* Top users
-* Friends ranking
-* Weekly challenges
-
-### Challenges
-
-Examples:
-
-* Drink water challenge
-* Study challenge
-* Workout challenge
-
----
-
-# PAGE 8 — Reminder & Notification Page
-
-## Objective
-
-Help users stay consistent.
-
-## Features
-
-### Reminder Settings
-
-Allow:
-
-* Daily reminders
-* Weekly reminders
-* Custom reminders
-* Push notifications
-* Email reminders
-
-### Smart Notifications
-
-Examples:
-
-* Habit missed alerts
-* Streak danger warning
-* Motivation notifications
-
-### Notification History
-
-Display:
-
-* Sent reminders
-* Completed reminders
-* Pending reminders
-
----
-
-# PAGE 9 — Community & Social Page
-
-## Objective
-
-Build social accountability.
-
-## Features
-
-### Community Feed
-
-Users can:
-
-* Share achievements
-* Post streaks
-* Upload progress updates
-
-### Social Interactions
-
-Include:
-
-* Likes
-* Comments
-* Following system
-* User profiles
-
-### Habit Groups
-
-Users can:
-
-* Join groups
-* Participate in challenges
-* Compete with friends
-
-### Public Profiles
-
-Display:
-
-* Habit stats
-* Achievements
-* Activity history
-
----
-
-# PAGE 10 — Settings & Profile Page
-
-## Objective
-
-Allow personalization and account management.
-
-## Features
-
-### User Profile
-
-Editable:
-
-* Name
-* Avatar
-* Bio
-* Goals
-* Timezone
-
-### Theme Settings
-
-Support:
-
-* Dark mode
-* Light mode
-* Custom colors
-
-### Account Settings
-
-Include:
-
-* Change password
-* Email verification
-* Privacy settings
-* Delete account
-
-### Data Management
-
-Allow:
-
-* Export data
-* Download reports
-* Backup progress
-
----
-
-# Backend Requirements
-
-## Authentication APIs
-
-* Register
-* Login
-* Logout
-* Refresh token
-* Forgot password
-* Reset password
-
-## Habit APIs
-
-* Create habit
-* Update habit
-* Delete habit
-* Fetch habits
-* Mark completion
-
-## Analytics APIs
-
-* Weekly reports
-* Monthly reports
-* Streak analysis
-
-## Notification APIs
-
-* Create reminders
-* Send notifications
-* Fetch notification history
-
----
-
-# Database Schema Design
-
-## User Schema
-
-Fields:
-
-* username
-* email
-* password
-* avatar
-* bio
-* achievements
-* streak
-* settings
-
-## Habit Schema
-
-Fields:
-
-* title
-* description
-* category
-* frequency
-* completedDates
-* streakCount
-* reminders
-* difficulty
-
-## Notification Schema
-
-Fields:
-
-* message
-* type
-* userId
-* readStatus
-* scheduledTime
-
----
-
-# Advanced Features
-
-## AI Productivity Suggestions
-
-Use AI logic to:
-
-* Recommend habits
-* Suggest improvements
-* Predict streak breaks
-* Analyze productivity patterns
-
-## Offline Support
-
-* PWA functionality
-* Local caching
-* Sync when online
-
-## Accessibility
-
-* Keyboard navigation
-* Screen reader support
-* High contrast mode
-
-## Performance Optimization
-
-* Lazy loading
-* Code splitting
-* Optimized API calls
-* Image optimization
-* Caching strategies
-
----
-
-# Admin Panel Features
-
-## Dashboard
-
-* User statistics
-* Active users
-* Habit trends
-* Revenue analytics
-
-## Management
-
-* Manage users
-* Moderate community posts
-* Handle reports
-* Analytics overview
-
----
-
-# Folder Structure
-
-## Frontend Structure
-
-src/
-├── components/
-├── pages/
-├── context/
-├── hooks/
-├── services/
-├── routes/
-├── layouts/
-├── utils/
-├── assets/
-└── animations/
-
-## Backend Structure
-
-server/
-├── controllers/
-├── routes/
-├── middleware/
-├── models/
-├── config/
-├── utils/
-├── services/
-└── validators/
-
----
-
-# Animation Requirements
-
-Use Framer Motion for:
-
-* Page transitions
-* Card hover effects
-* Modal animations
-* Sidebar transitions
-* Loading states
-* Statistics counters
-
----
-
-# Mobile Responsiveness
-
-The application must:
-
-* Work perfectly on all screen sizes
-* Include mobile navigation
-* Use responsive grids
-* Have touch-friendly UI
-* Optimize charts for mobile
-
----
-
-# Security Requirements
+- Username
+- Email
+- Password
+- Confirm password
+
+## Security
 
 Implement:
 
-* JWT authentication
-* Password hashing
-* Rate limiting
-* Secure headers
-* Input sanitization
-* XSS protection
-* MongoDB validation
+- Validation
+- Password strength indicator
+- Structured error handling
 
 ---
 
-# Final Deliverables
+# PAGE 3 — Dashboard Features
+
+Include:
+
+- Habit summary cards
+- Productivity score
+- Streak analytics
+- Daily motivation quotes
+- Interactive widgets
+- Calendar preview
+- Progress indicators
+
+---
+
+# PAGE 4 — Habit Management
+
+## Features
+
+- Create habits
+- Edit habits
+- Delete habits
+- Archive habits
+- Habit categories
+- Drag-and-drop ordering
+- Search and filters
+- Priority system
+
+---
+
+# PAGE 5 — Analytics
+
+## Features
+
+- Weekly charts
+- Monthly trends
+- Category analysis
+- Productivity heatmaps
+- Smart insights
+- Progress reports
+
+Charts should use:
+
+- Canvas API
+- Custom rendering functions
+- Responsive visualizations
+
+---
+
+# PAGE 6 — Calendar
+
+## Features
+
+- Interactive calendar
+- Habit history timeline
+- Completion indicators
+- Streak highlights
+- Date filtering
+- Timeline activity logs
+
+---
+
+# PAGE 7 — Rewards
+
+## Features
+
+- XP system
+- Achievement badges
+- Levels
+- Coins
+- Leaderboards
+- Challenges
+- Confetti celebrations
+
+---
+
+# PAGE 8 — Reminders
+
+## Features
+
+- Reminder settings
+- Notification history
+- Smart alerts
+- Streak danger warnings
+- Daily reminders
+- Weekly reminders
+
+---
+
+# PAGE 9 — Community
+
+## Features
+
+- Community feed
+- User posts
+- Likes
+- Comments
+- Achievement sharing
+- Social accountability
+
+---
+
+# PAGE 10 — Settings
+
+## Features
+
+- User profile management
+- Theme switching
+- Sound effects toggle
+- Focus mode
+- Account settings
+- Data export options
+
+---
+
+# Authentication Requirements
+
+Implement:
+
+- Signup flow
+- Login flow
+- Logout functionality
+- Session persistence
+- Protected page redirects
+- Password hashing simulation
+- Validation system
+
+---
+
+# Community Features
+
+Support:
+
+- User posts
+- Comments
+- Likes
+- Activity sharing
+- Achievement sharing
+
+---
+
+# Accessibility Requirements
+
+Ensure:
+
+- Semantic HTML
+- Keyboard navigation
+- Responsive typography
+- ARIA labels
+- Accessible forms
+- Accessible navigation
+
+---
+
+# Performance Requirements
+
+Optimize:
+
+- Rendering performance
+- Event listeners
+- LocalStorage access
+- DOM updates
+- Animation performance
+- Mobile responsiveness
+
+Implement:
+
+- Lazy rendering where possible
+- Efficient re-renders
+- Debounced interactions
+- Optimized animations
+
+---
+
+# Responsive Design Requirements
+
+The application must:
+
+- Work on desktop
+- Work on tablets
+- Work on mobile devices
+- Include responsive navigation
+- Support touch interactions
+- Use responsive grids
+
+---
+
+# Data Processing Requirements
+
+Validate all form fields properly:
+
+- Email format validation
+- Required field validation
+- Password validation
+
+Process LocalStorage data securely:
+
+- Safe JSON parsing
+- Structured state management
+- Fallback recovery for corrupted data
+
+Optimize data handling for:
+
+- Smooth UI updates
+- Efficient search and filtering
+- Fast rendering performance
+
+---
+
+# Output Requirements
 
 Generate:
 
-1. Complete frontend code
-2. Complete backend code
-3. Database schemas
-4. API integration
-5. Authentication system
-6. Responsive UI
-7. Charts and analytics
-8. Deployment instructions
-9. Environment configuration
-10. README documentation
+- Complete HTML pages
+- Centralized CSS styling
+- Modular JavaScript architecture
+- Responsive layouts
+- Interactive dashboards
+- Analytics visualizations
 
 ---
 
 # Expected Quality
 
-The final project must:
+The final application must:
 
-* Look premium
-* Be production-ready
-* Have clean architecture
-* Follow best practices
-* Use reusable components
-* Include scalable backend design
-* Maintain excellent performance
-* Provide exceptional user experience
-
----
-
-# Additional Enhancements
-
-Add:
-
-* Animated onboarding
-* Progress rings
-* Confetti celebration on streaks
-* Sound effects toggle
-* Focus mode
-* Pomodoro timer integration
-* Habit templates
-* Smart recommendations
-* Daily summaries
-* Email reports
+- Feel premium
+- Be production-ready
+- Maintain clean architecture
+- Use reusable components
+- Deliver exceptional UX
+- Be visually immersive
+- Maintain high performance
+- Support scalability
 
 ---
 
-# Goal
+# Error Handling and Documentation Requirements
 
-Create a world-class Habit Tracker application that combines:
+Handle all frontend and backend errors gracefully.
 
-* Productivity
-* Motivation
-* Analytics
-* Social engagement
-* Modern UI/UX
-* Scalable architecture
-* AI-powered insights
+Implement:
 
-The application should feel like a premium SaaS product comparable to the best productivity platforms available today.
+- Frontend validation handling
+- Authentication error handling
+- Form validation feedback
+- LocalStorage failure handling
+- API failure handling
+- Notification error handling
+- Modal and rendering fallbacks
+
+Provide structured error responses throughout the application.
+
+Log:
+
+- Validation failures
+- State management failures
+- Rendering issues
+- Notification failures
+- Storage failures
+
+---
+
+# Performance and Scalability Requirements
+
+Optimize the application for maximum frontend performance.
+
+Implement:
+
+- Optimized bundle structure
+- Lazy rendering where applicable
+- Efficient DOM updates
+- Event delegation
+- Debounced user interactions
+- Optimized LocalStorage access
+- Efficient animation rendering
+- Mobile performance optimization
+
+Ensure:
+
+- Animations do not degrade performance
+- Smooth scrolling is maintained
+- High FPS UI interactions
+- Minimal layout recalculations
+- Optimized rendering cycles
+- Fast page loading times
+
+---
+
+# Technology Stack
+
+## Frontend Stack
+
+Use:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6+)
+- Vite
+- LocalStorage API
+- Canvas API for charts
+- Responsive CSS Grid/Flexbox
+- Custom reusable UI utilities
+
+---
+
+# Backend
+
+Use:
+
+- Vanilla JavaScript (ES6+)
+- Vite
+- Browser LocalStorage API
+- Modular frontend rendering system
+- Utility-based application architecture
+- Dynamic DOM rendering
+- Event-driven state updates
+- Reusable UI helpers
+- Canvas API for analytics visualizations
